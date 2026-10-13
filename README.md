@@ -8,3 +8,5 @@ Pin the icon. Chrome asks "Open X?" once per app; tick "Always allow".
 
 Badge: ↗ fired · — no mapping · ? mapped but scheme not filled in.
 Add apps in rules.js.
+
+Test rules: `node test.mjs`.
