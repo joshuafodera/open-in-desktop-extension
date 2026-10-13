@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Desktop",
+  "version": "0.1.0",
+  "description": "Click to open the current page in its desktop app, if one is mapped.",
+  "permissions": ["activeTab", "scripting"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "Open in desktop app" }
+}
